@@ -9,3 +9,9 @@ git add
 # Crear commit con su mensaje
 git commit -m "Comenzando aventura"
 
+# Agregar remoto "Solo la primera vez"
+git remote add origin https://github.com/Ali-F2/santander-front.git
+
+# Enviar commits al servidor de GitHub
+git push -u origin master
+
