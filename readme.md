@@ -7,7 +7,7 @@ git add
 ## El punto es para agregar todos los archivos modificados
 
 # Crear commit con su mensaje
-git commit -m "Comenzando aventura"
+git commit -m "Mensaje descriptivo corto"
 
 # Agregar remoto "Solo la primera vez"
 git remote add origin https://github.com/Ali-F2/santander-front.git
