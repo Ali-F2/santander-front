@@ -14,3 +14,7 @@ button{
 body{
     background-color: #fffbf7;
 }
+input[type=password]{
+    color:lightcoral;
+    background-color:tomato;
+}
