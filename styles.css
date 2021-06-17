@@ -18,3 +18,49 @@ input[type=password]{
     color:lightcoral;
     background-color:tomato;
 }
+.header {
+    height: 45px;
+    margin: 40px 20px 0 20px;
+    font-size: 0;
+    line-height: 45px
+  }
+  li{
+      display: inline;
+  }
+  .header > *{
+      display: inline-block;
+      font-size: 16px;
+      vertical-align: middle;
+      height: 100%;
+      line-height: 45px;
+  }
+  .logo{
+      width: 15%;
+  }
+  .navbar{
+      width: 70%;
+      text-align: left;
+      color: #025157;
+      font-weight: 500;
+      font-family: sans-serif;
+  }
+  #wordsbar{
+    margin: 0 25px;
+  }
+  .actions{
+      width: 15%;
+      text-align: left;
+      font-size: 14px;
+      font-weight: 600;      
+  }
+  .action1{
+      color:#67b54b;
+      margin: 0 10 px;      
+  }
+  .action2{
+    color: white;
+    margin: 0 10 px;
+    background-color: #67b54b;
+    padding: 14px 12px;
+    border-radius: 5px;
+  }
