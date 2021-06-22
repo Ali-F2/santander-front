@@ -1,5 +1,5 @@
 h1 {
-    color:purple;
+    color: #025157;
 }
 h2{
     color: #46484c;
@@ -39,7 +39,7 @@ input[type=password]{
   }
   .navbar{
       width: 70%;
-      text-align: left;
+      text-align: center;
       color: #025157;
       font-weight: 500;
       font-family: sans-serif;
@@ -64,3 +64,33 @@ input[type=password]{
     padding: 14px 12px;
     border-radius: 5px;
   }
+  .Below{
+      color: #343434;
+  }
+  .PreviousForm{
+      color: #025157;
+  }
+  .Button1>*{
+    display: inline-block;
+  }
+  .promo{
+      display: flex;
+      width: 70%;
+      margin: 100px auto;
+      align-items: center;
+  }
+  .media{
+      display: flex;
+      flex-direction: column;
+  }
+  .promo>*{
+      margin: 0 10px;
+  }
+  .fixed-header{
+      position: fixed;
+      background-color:#fffbf7;
+      top: 0;
+      left: 0;
+      right: 0;
+  }
+ 
