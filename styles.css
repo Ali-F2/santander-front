@@ -96,6 +96,7 @@ input[type=password]{
       top: 0;
       left: 0;
       right: 0;
+      z-index: 5;
   }
   main {
     margin-top: 285px;
@@ -210,4 +211,56 @@ h3{
 }
 .Logos{
     max-width: 75%;
+}
+.features{
+    display: grid;
+    /*grid-template-columns: 300px 300px;*/
+    /*grid-template-columns: repeat(2, 300px);*/
+    /*grid-template-columns: 500px 1fr;*/
+
+    grid-template: repeat(2,330px)/repeat(2,1fr);
+    background-color: #025157;
+    padding: 5% 10%;
+    grid-gap: 30px;
+}
+.feature-art{
+    background-color: white;
+    margin: 10px;
+    width: 100%;
+    height: 330px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+h4{
+    font-size: 24px;
+    color: #343434;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 0 16px;
+}
+.Spot{
+    font-size: 16px;
+    color: #7e7e7e;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.LittleImage{
+    width: 50px;
+}
+.Promotionals{
+    height: 250px;
+    position: absolute;
+    top: 30px;
+    left: 320px;
+}
+.MultipleText{
+    width: 47%;
+    margin: 20px 0 45px 45px;
+}
+.LinksPublicity{
+    font-size: 16px;
+    color: #67b54b;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
 }
