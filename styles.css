@@ -7,6 +7,7 @@ h2{
     font-size: 51px;
     line-height: 61px;
     color: #025157;
+    margin: 0 0 10px 0;
 }
 b{
    color: #8b8b8bcc;
@@ -263,4 +264,61 @@ h4{
     color: #67b54b;
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
+}
+.platform{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 40px;
+    padding: 5% 10%;
+    height: 600px;
+    
+}
+.platform-art{
+    background-color: white;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    position: relative;
+    
+}
+.Functions{
+    width: 200px;
+    height: 330px;
+}
+.Little{
+    width: 22px;
+    position: absolute;
+    top: 25px;
+    left: 25px;    
+}
+.PlatformText{
+    font-size: 15px;
+    line-height: 1.5;
+    color: #46484c;
+    font-weight: 400;
+    height: 85px;
+    font-family: 'Open Sans', sans-serif;;
+}
+h5{
+    font-size: 30px;
+    line-height: 36px;
+    font-family: "Alegreya", serif;
+    color: #025157;
+    font-weight: 400;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+}
+.Text_Section4{
+    margin: 30px 30px 30px 30px;
+}
+.TitleSection4{
+    margin: 50px 360px 10px 360px;
+    text-align: center;
+}
+.Button1_Section4{
+    font-size: 14px;
+    border-radius: 8px;
+    height: 45px;
+    font-weight: 600;
 }
