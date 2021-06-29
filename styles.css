@@ -322,3 +322,86 @@ h5{
     height: 45px;
     font-weight: 600;
 }
+h6{
+    color: #025157;
+    font-family: "Alegreya", serif;
+    font-size: 60px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+    .navbar, .actions {
+        display: none;
+    }    
+        h6 {
+          font-size: 30px;
+          margin-top: 50px;
+        }
+    
+    .banner > img{
+        width: 100%;
+    }
+
+    .promo{
+        flex-direction: column;
+        max-width: 90%;
+    }
+
+    .explanatory-video > video{
+        width: 100%;
+    }
+
+    .publish{
+        margin-top: 10px;
+           }
+
+    .publish > form{
+       display: grid;
+       grid-template-columns: 1fr;
+       grid-template-rows: repeat(11,50px);
+    }
+
+    .publish > form > p{
+        margin-bottom: 5px;
+    }
+    
+    .publish > form > input{
+        height: 30px;
+    }
+    .publish > h1{
+        font-size: 25px;
+        line-height: 20px;
+    }
+
+    .features{
+        display: grid;
+        grid-template: repeat(4,1fr)/1fr;
+            }
+    .Promotionals{
+        display: none;
+    }
+}
+
+
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+  
+}
+
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {
+  
+}
+
+
