@@ -42,13 +42,13 @@ input[type=password]{
   .logo{
       width: 15%;
   }
-  .navbar{
+  /*.navbar{
       width: 70%;
       text-align: center;
       color: #025157;
       font-weight: 500;
       font-family: sans-serif;
-  }
+  }*/
   #wordsbar{
     margin: 0 25px;
   }
@@ -331,9 +331,9 @@ h6{
 }
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
-    .navbar, .actions {
+    /*.navbar, .actions {
         display: none;
-    }    
+    }*/    
         h6 {
           font-size: 30px;
           margin-top: 50px;
@@ -403,5 +403,9 @@ h6{
 @media (min-width: 1200px) {
   
 }
+
+
+
+
 
 
